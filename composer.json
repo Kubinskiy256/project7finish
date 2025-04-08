@@ -1,0 +1,21 @@
+{
+    "name": "kubinskiy/project2",
+    "type": "project2",
+    "autoload": {
+        "psr-4": {
+            "Kubinskiy\\Project2\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "dima"
+        }
+    ],
+     "require": {
+        "Kubinskiy/project":"dev-master"
+    },
+    "repositories": [{
+        "type":"vcs",
+        "url": "https://github.com/Kubinskiy256/project7.git"
+    }]
+}
