@@ -1,14 +1,9 @@
 {
-    "_readme": [
-        "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
-        "This file is @generated automatically"
-    ],
-    "content-hash": "1af94d961f665fd50c84e461b100e5fc",
     "packages": [
         {
             "name": "kubinskiy/project",
             "version": "dev-master",
+            "version_normalized": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Kubinskiy256/project7.git",
@@ -20,8 +15,10 @@
                 "reference": "634b7db5aef01e761fe5c5629fce61f6393aaf26",
                 "shasum": ""
             },
+            "time": "2025-04-09T14:35:30+00:00",
             "default-branch": true,
             "type": "project",
+            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "Kubinskiy\\Project\\": "src/"
@@ -36,18 +33,9 @@
                 "source": "https://github.com/Kubinskiy256/project7/tree/master",
                 "issues": "https://github.com/Kubinskiy256/project7/issues"
             },
-            "time": "2025-04-09T14:35:30+00:00"
+            "install-path": "../kubinskiy/project"
         }
     ],
-    "packages-dev": [],
-    "aliases": [],
-    "minimum-stability": "stable",
-    "stability-flags": {
-        "kubinskiy/project": 20
-    },
-    "prefer-stable": false,
-    "prefer-lowest": false,
-    "platform": {},
-    "platform-dev": {},
-    "plugin-api-version": "2.6.0"
+    "dev": true,
+    "dev-package-names": []
 }

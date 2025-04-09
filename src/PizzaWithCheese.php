@@ -1,10 +1,10 @@
 <?php
 
-namespace Kubinskiy\project2;
+namespace kubinskiy\project2;
 
 require_once 'vendor/autoload.php';
 
-use Kubinskiy\project\Pizza;
+use kubinskiy\project\Pizza;
 
 class PizzaWithCheese extends Pizza {
 

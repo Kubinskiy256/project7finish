@@ -1,19 +1,19 @@
 <?php
-namespace Kubinskiy\project2;;
+namespace kubinskiy\project2;
 
 require_once 'vendor/autoload.php';
 
-use Kubinskiy\project\Pizza;
-use Kubinskiy\project\PizzaStore;
-use Kubinskiy\project2\PizzaWithPepperoni;
-use Kubinskiy\project2\PizzaWithCheese;
-use Kubinskiy\project2\PizzaWithMarqherita;
+use kubinskiy\project\Pizza;
+use kubinskiy\project\PizzaStore;
+use kubinskiy\project2\PizzaWithPepperoni;
+use kubinskiy\project2\PizzaWithCheese;
+use kubinskiy\project2\PizzaWithMarqherita;
 
 class PizzaStoreOrders extends PizzaStore{
 
-    public array $speciesPizza=["Пицца  пепперониий", "Пицца  маргарита", "Пицца с сыром"];
+    public array $speciesPizza=["Пицца  пеппероний", "Пицца  маргарита", "Пицца с сыром"];
 
-    public function createPizza(string $type): Pizza
+    public function createPizza(string $type): Pizza | string
     {
         if ($type === "Пицца  пеппероний") {
             $newPizza1 = new PizzaWithPepperoni();
@@ -26,7 +26,7 @@ class PizzaStoreOrders extends PizzaStore{
         }
 
         if ($type === "Пицца с сыром ") {
-            $newPizza3 = new PizzaWithShaurma();
+            $newPizza3 = new PizzaWithCheese();
             return $newPizza3;
         }
 

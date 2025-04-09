@@ -1,6 +1,6 @@
 {
     "name": "kubinskiy/project2",
-    "type": "project2",
+    "type": "project",
     "autoload": {
         "psr-4": {
             "Kubinskiy\\Project2\\": "src/"
@@ -8,11 +8,12 @@
     },
     "authors": [
         {
-            "name": "dima"
+            "name": "rmt",
+            "email": "rmt@mail.ru"
         }
     ],
-     "require": {
-        "Kubinskiy/project":"dev-master"
+    "require": {
+        "kubinskiy/project":"dev-master"
     },
     "repositories": [{
         "type":"vcs",
